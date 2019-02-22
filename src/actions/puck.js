@@ -1,7 +1,7 @@
 import openSocket from 'socket.io-client'
 export const MOVE_PUCK = 'MOVE_PUCK'
 export const PUCK_HAS_MOVED = 'PUCK_HAS_MOVED'
-const port = process.env.PORT || 'http://localhost:4000' || 'https://safe-fortress-60903.herokuapp.com/'
+const port = process.env.PORT || 'https://safe-fortress-60903.herokuapp.com/'
 const socket = openSocket(port)
 
 
