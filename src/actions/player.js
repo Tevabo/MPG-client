@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client'
-const port = process.env.PORT || 'http://localhost:4000'
+const port = process.env.PORT || 'https://safe-fortress-60903.herokuapp.com/'
 const socket = openSocket(port)
 
 export const ADD_PLAYER = 'ADD_PLAYER'

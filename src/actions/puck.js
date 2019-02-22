@@ -5,7 +5,7 @@ export const PUCK_HIT_GOAL_ONE = 'PUCK_HIT_GOAL_ONE'
 export const PUCK_HIT_GOAL_TWO = 'PUCK_HIT_GOAL_TWO'
 export const PUCK_HAS_RESET = 'PUCK_HAS_RESET'
 
-const port = process.env.PORT || 'http://localhost:4000'
+const port = process.env.PORT || 'https://safe-fortress-60903.herokuapp.com/'
 const socket = openSocket(port)
 
 export const movePuck = (positionX, positionY, velocityX, velocityY) => {
